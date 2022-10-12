@@ -1,8 +1,38 @@
-body{
-	background-color: greenyellow;
+#container{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+*
+{
+	margin: 0px;
+}
+
+header{
+	grid-column: 1/7;
+	background-color: rgb(79, 178, 162);
+	padding: 10px;
 }
 
 header > div > img{
 	width: 200px;
 	height: auto;
+	
 }
+
+header > div{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+#MenuList{
+	font-family: "Nexa Bold";
+	font-size: 20pt;
+	color: white;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;	
+	grid-column: 3/7;
+	align-items: center;
+}
+

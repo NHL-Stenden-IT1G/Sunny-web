@@ -8,10 +8,6 @@
     src: url(../fonts/Nexa\ Light.otf);
 }
 
-body{
-    margin: 0;
-}
-
 #container{ 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -29,22 +25,26 @@ body{
 
 #ourStoryFlex {
     grid-column: 1/7;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
 
 }
 
-#greenBox{
-    padding: 40px;
-    padding-top: 0px;
-    background-color: red;
-    margin-right: 1em;
+.box{
+    background-color: whitesmoke;
     box-sizing: border-box;
-    max-width: 630px;
-    font-size: 20px;
+    max-width: 750px;
+    min-width: 280px;
     border-style: solid;
     text-align: justify;
+}
+
+#greenBox{
+    padding: 40px;
+    padding-top: 0;
+    margin-right: 1em;
+    font-size: 25px;
 }
 
 #greenBox h2{
@@ -52,4 +52,23 @@ body{
     font-family: Nexa_Bold;
     text-align: center;
     font-size: 40px;
+}
+
+#factBox{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+#factBox h2{
+    font-family: Nexa_Bold;
+    text-align: center;
+    margin: 10px;
+}
+
+#pictureBox img{
+    max-width: 550px;
+    min-width: 280px;
+    border: 3px solid rgb(0, 0, 0);
 }

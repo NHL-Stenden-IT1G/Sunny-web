@@ -1,3 +1,8 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+}
 #socks
 {
     background-color:white;
@@ -5,11 +10,26 @@
     align-items:center;
     flex-direction: row;
     cursor: grab;
+    width: 158%;
+    
     
 }
-.sock
+.sock_item
 {
-    width: 256px;
-    height: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.sock_item > img
+{
+    width: 14.375rem;
+    height: auto;    
+}
+.sock_item > p
+{
+    font-family: "Nexa Light";
+    font-size: 2.5rem;
+    width: 50%;
+    text-align: center;
+}

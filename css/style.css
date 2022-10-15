@@ -56,17 +56,18 @@ header > div{
 
 
 #floatBox{
-	height: 400px;
+	height: 350px;
 	width: 600px;
 	font-family: "Nexa Bold";
 	background-color: rgb(79, 178, 162);
 	color: white;
-	margin-top: 75px;
-	font-size: 35px;
+	margin-top: 120px;
+	font-size: 2.2em;
 	text-align: center;
-	padding: 60px 40px 40px 40px;
+	padding: 90px 40px 10px 40px;
 	position: relative;
 	left: -450px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 	
 
 }

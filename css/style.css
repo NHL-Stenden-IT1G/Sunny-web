@@ -11,7 +11,6 @@
 #container{ 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    margin: 0 auto;
     font-family: Nexa_Light;
 }
 
@@ -19,32 +18,30 @@
     font-family: Nexa_Bold;
     color: rgb(30 64 122);
     grid-column: 3/5;
-    font-size: 50px;
+    font-size: 3em;
     text-align: center;
 }
 
 #ourStoryFlex {
     grid-column: 1/7;
-    margin-left: 20px;
-    margin-right: 20px;
     display: flex;
-
-}
-
-.box{
-    background-color: whitesmoke;
-    box-sizing: border-box;
-    max-width: 750px;
-    min-width: 280px;
-    border-style: solid;
-    text-align: justify;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 #greenBox{
-    padding: 40px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 50%;
+    min-width: 280px;
+    border-style: solid;
+    text-align: justify;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
     padding-top: 0;
-    margin-right: 1em;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 #greenBox h2{
@@ -55,10 +52,17 @@
 }
 
 #factBox{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-style: solid;
+    text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 18px;
     margin-bottom: 1em;
+}
+#factImg{
+    width: 50%;
 }
 
 #factBox h2{
@@ -66,9 +70,13 @@
     text-align: center;
     margin: 10px;
 }
+#img{
+    width: 99%;
 
-#pictureBox img{
-    max-width: 550px;
-    min-width: 280px;
+}
+
+#img img{
+    width: 100%;
     border: 3px solid rgb(0, 0, 0);
 }
+

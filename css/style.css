@@ -1,10 +1,14 @@
-
+#container{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
 body
 {
     background-image: url("../img/back_ground_image.jpeg");
 }
 #our_products
 {
+    grid-column: 1/7;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -37,8 +41,31 @@ h1
     height: 36.6875rem;
     border:solid;
 }
+header{
+	grid-column: 1/7;
+	background-color: rgb(79, 178, 162);
+	padding: 10px;
+}
 
+header > div > img{
+	width: 200px;
+	height: auto;
+	
+}
 
+header > div{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
 
-
+#MenuList{
+	font-family: "Nexa Bold";
+	font-size: 20pt;
+	color: white;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;	
+	grid-column: 3/7;
+	align-items: center;
+}
 

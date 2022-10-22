@@ -1,8 +1,4 @@
-*
-{
-    margin: 0px;
-    padding: 0px;
-}
+
 #socks
 {
     background-color:white;
@@ -23,7 +19,7 @@
 
 .sock_item > img
 {
-    width: 14.375rem;
+    width: 13.375rem;
     height: auto;    
 }
 .sock_item > p

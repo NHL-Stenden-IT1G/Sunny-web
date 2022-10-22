@@ -1,6 +1,7 @@
 #container{
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
+   width: 100%;
 }
 body
 {
@@ -68,4 +69,50 @@ header > div{
 	grid-column: 3/7;
 	align-items: center;
 }
+#Banner{
+	
+	grid-column: 3/7;
+	background-image: url(../img/sunny_socks_photos/catalogus/Sunny_socks_green.jpg);
+	background-size: cover;
+	width: 1000px;
+	height: 700px;
+	
 
+}
+
+#Banner > img{
+	width: 1000px;
+	height: auto;
+	
+}
+
+
+#floatBox{
+	height: 350px;
+	width: 600px;
+	font-family: "Nexa Bold";
+	background-color: rgb(79, 178, 162);
+	color: white;
+	margin-top: 120px;
+	font-size: 2.2em;
+	text-align: center;
+	padding: 90px 40px 10px 40px;
+	position: relative;
+	left: -450px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+	
+
+}
+
+button{
+	background-color: white;
+	border: none;
+	color: rgb(79, 178, 162);
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Nexa Bold";
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 40px;
+}

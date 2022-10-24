@@ -137,6 +137,8 @@ form
 	width: 70%;
 	font-family: "Nexa Light";
 	font-size: 1.625rem;
+	display: flex;
+	flex-direction: column;
 	
 }
 #personal_data
@@ -178,7 +180,7 @@ form
 	box-shadow: 0.2rem 0.2rem 0.5rem black;
 	position: relative;
 	bottom: 3.5rem;
-	left: 29rem;
+	left:59rem;
 }
 footer
 {

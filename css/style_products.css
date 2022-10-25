@@ -1,3 +1,8 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
 
 #socks
 {
@@ -7,20 +12,23 @@
     flex-direction: row;
     justify-content: space-evenly;
     cursor: grab;
-    width: 160%;
+    width: 170%;
     height: 100%;
     
 }
+
 html
 {
     font-size: 100%;
+
 }
 @media  screen and  (max-width:576px)
 {
     html
     {
-        font-size:50%;
+        font-size:40%;
     }
+    
 }
 .sock_item
 {
@@ -31,7 +39,7 @@ html
 
 .sock_item > img
 {
-    width: 100%;
+    max-width: 100%;
     height: auto;    
 }
 .sock_item > p
@@ -42,4 +50,11 @@ html
     text-align: center;
 }
 
-
+@media screen and (max-width:576px)
+{
+    .sock_item>img
+    {
+      max-width: 85%;
+      height: auto;
+    }
+}

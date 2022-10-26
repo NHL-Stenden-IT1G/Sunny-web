@@ -21,6 +21,32 @@ header > div {
 	grid-template-columns: repeat(6, 1fr);
 }
 
+/* Top nav menu */
+
+	.topnav a {
+	  color: white;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  display: block;
+	}
+
+	.topnav a.icon {
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	.topnav a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.active {
+	  color: white;
+	}
+
 #MenuList {
 	font-family: "Nexa Bold";
 	font-size: 20pt;
@@ -204,29 +230,5 @@ h2 {
 
 	.topnav #MenuList {
 	  display: none;
-	}
-
-	.topnav a {
-	  color: white;
-	  padding: 14px 16px;
-	  text-decoration: none;
-	  font-size: 17px;
-	  display: block;
-	}
-
-	.topnav a.icon {
-	  display: block;
-	  position: absolute;
-	  right: 0;
-	  top: 0;
-	}
-
-	.topnav a:hover {
-	  background-color: #ddd;
-	  color: black;
-	}
-
-	.active {
-	  color: white;
 	}
 }

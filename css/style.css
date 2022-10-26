@@ -25,7 +25,7 @@ body{
 	flex: 2 2 20em;
 }
 #resellersWriting>p{
-	grid column:1/6;
+	grid-column:1/6;
 	font-family:Nexa Light;
 	font-size:2em;
 	position:relative;
@@ -35,31 +35,25 @@ body{
 #resellersLogo{
 	display: flex;
 	flex-wrap:wrap;
-  	justify-content:space-evenly;
-}
-/* Cica trebuie pentru media queries */
-
-.edcar_letter{
-    font-size:180px;
+	grid-column: 2/6;
+  	justify-content:space-between;
 }
 
-@media screen and (max-width: 350px) {
-    .edcar_letter{
-        font-size:120px;
-    }
-}
 @media only screen and (max-width: 576px){
 
 .logo{
 	margin-top:3%;
 
 }
+
 #resellersWriting>p{
 	font-size:1.8em;
 	justify-content:center;
 	bottom:10%;
 }
+
 #resellersWriting>h1{
 font-size:3.5em;
 }
+
 }

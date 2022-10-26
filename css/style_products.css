@@ -22,14 +22,7 @@ html
     font-size: 100%;
 
 }
-@media  screen and  (max-width:576px)
-{
-    html
-    {
-        font-size:40%;
-    }
-    
-}
+
 .sock_item
 {
     display: flex;
@@ -52,6 +45,10 @@ html
 
 @media screen and (max-width:576px)
 {
+    html
+    {
+        font-size:40%;
+    }
     .sock_item>img
     {
       max-width: 85%;

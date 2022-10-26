@@ -12,7 +12,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     cursor: grab;
-    width: 170%;
+    width: 130%;
     height: 100%;
     
 }
@@ -32,7 +32,7 @@ html
 
 .sock_item > img
 {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;    
 }
 .sock_item > p
@@ -53,5 +53,9 @@ html
     {
       max-width: 85%;
       height: auto;
+    }
+    #socks
+    {
+        width: 150%;
     }
 }

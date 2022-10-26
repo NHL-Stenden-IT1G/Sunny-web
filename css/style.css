@@ -47,6 +47,15 @@ header > div {
 	  color: white;
 	}
 
+	.topnav {
+	  overflow: hidden;
+	  position: relative;
+	}
+
+	.topnav #MenuList {
+	  display: contents;
+	}
+
 #MenuList {
 	font-family: "Nexa Bold";
 	font-size: 20pt;

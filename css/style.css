@@ -18,7 +18,7 @@
     font-family: Nexa_Bold;
     color: rgb(30 64 122);
     grid-column: 3/5;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
 }
 
@@ -48,7 +48,6 @@
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 0;
     font-size: 24px;
     margin-right: 16px;
 
@@ -102,7 +101,6 @@
 @media screen and (max-width: 576px){
 
     .title{
-        font-size: 40px;
         margin-top: 20px;
         margin-bottom: 20px;
     }

@@ -1,6 +1,17 @@
+@font-face{
+    font-family: "Nexa_Bold";
+    src: url(../fonts/Nexa\ Bold.otf);
+}
+
+@font-face{
+    font-family: "Nexa_Light";
+    src: url(../fonts/Nexa\ Light.otf);
+}
+
 #container{
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
+	font-family: "Nexa_Light";
 }
 
 a{
@@ -9,8 +20,11 @@ a{
 }
 html{
 	font-size: 16px;
+	scroll-behavior: smooth;
 }
 
+
+/* Start of mainPage */
 header{
 	grid-column: 1/7;
 	background-color: rgb(79, 178, 162);
@@ -21,11 +35,11 @@ header{
 
 header > img{
 	height: 65px;
-	margin-left: 10px;
+	margin-left: 16px;
 }
 
 #menuList{
-	font-family: "Nexa Bold";
+	font-family: "Nexa_Bold";
 	font-size: 1.67rem;
 	color: white;
 	list-style: none;
@@ -54,10 +68,10 @@ header > img{
 #floatBox{
 	width: 55%;
 	height: 70%;
-	font-family: "Nexa Bold";
+	font-family: "Nexa_Bold";
 	background-color: rgb(79, 178, 162);
 	color: white;
-	font-size: 2.2rem;
+	font-size: 2.1rem;
 	text-align: center;
 	align-items: center;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.5);
@@ -74,17 +88,102 @@ header > img{
 	margin: 0px;
 }
 
-button{
+#bannerButton{
 	height: 60px;
 	background-color: white;
 	border: none;
 	color: rgb(79, 178, 162);
 	text-align: center;
-	font-family: "Nexa Bold";
+	font-family: "Nexa_Bold";
 	display: inline-block;
 	font-size: 1.5rem;
 	padding: 15px 30px;
 }
+/* End of mainPage */
+
+
+/* Start of ourStory */
+#title{
+    font-family: "Nexa_Bold";
+    color: rgb(30 64 122);
+    grid-column: 1/7;
+    font-size: 60px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#ourStoryFlex{
+    grid-column: 1/7;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#ourStoryFlex h2{
+    font-size: 40px;
+}
+
+#ourStoryFlex p{
+    margin-bottom: 16px;
+}
+
+#greenBox{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 49%;
+    border-style: solid;
+    border-width: 3.5px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 24px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#greenBox h2{
+    color: rgb(79 178 162);
+    font-family: "Nexa_Bold";
+    text-align: center;
+}
+
+#factImgDiv{
+    width: 49%;
+}
+
+#factBox{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 3.5px;
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+#factBox h2{
+    font-family: "Nexa_Bold";
+    text-align: center;
+    margin: 10px;
+}
+#imgBox{
+    width: 99%;
+
+}
+
+#imgBox img{
+    width: 100%;
+    border: 3.5px solid black;
+    display: block;
+}
+/* End of ourStory */
 
 
 @media screen and (max-width: 576px){
@@ -93,6 +192,8 @@ button{
 		font-size: 7px;
 	}
 
+
+/* Start of mainPage */
 	header{
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -124,11 +225,47 @@ button{
 		position: initial;
 	}
 	
-	button{
+	#bannerButton{
 		height: 40px;
 		font-size: 2.75rem;
 		padding: 10px 20px
 	}
-		
+/* End of mainPage */
+
+
+/* Start of ourStory */
+	#title{
+		margin-top: 40px;
+		margin-bottom: 20px;
+        font-size: 40px;
 	}
+
+
+	#greenBox{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+
+	#greenBox h2{
+		font-size: 32px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+
+	#factImgDiv{
+		width: 100%;
+	}
+
+	#factBox{
+		font-size: 16px;
+	}
+
+	#factBox h2{
+		font-size: 26px;
+	}
+/* End of ourStory */
+}
 	

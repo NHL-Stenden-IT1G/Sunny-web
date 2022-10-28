@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html lang="en">
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -16,25 +16,27 @@
 		        alt="Sunny Logo with slogan">
 
 			<ul id="menuList">
-				<li><a href="#title">About Us</a></li>
-			    <li><a href="#products">Products</a></li>
-				<li><a href="#resellers">Resellers</a></li>
+				<li><a href="#ourStoryFlex">About Us</a></li>
+			    <li><a href="#ourProducts">Products</a></li>
+				<li><a href="#resellersWriting">Resellers</a></li>
 				<li><a href="#contactUs">Contact Us</a></li>
 			</ul>
 		</header>
 
-
+		<!--Start of Main Page-->
 		<div id="banner">
 			<div id="floatBox">
 				<h1>Durable, affordable and now, sustainable.</h1>
 				<button id="bannerButton"><a href="#">Buy Now</a></button>
 			</div>
 		</div>
+		<!--End of Main Page-->
 
 
-		<h1 id="title">Our Story</h1>
-
+		<!--Start of Our Story-->
 		<div id="ourStoryFlex">
+			<h1 class="title">Our Story</h1>
+
 			<div id="greenBox">
 				<span>
 					<h2>Our Green Initiative</h2>
@@ -62,6 +64,56 @@
 				</div>
 			</div>
 		</div>
+		<!--End of Our Story-->
+
+
+		<!--Start of Our Products-->
+		<div id="ourProducts">
+			<h1 class="title">Our products</h1>
+			<p>
+				Our socks come in five standard colors and two different designs!<br> 
+				We also offer a customization. Click here for more.
+			</p>
+			<iframe src="pages/products.html">
+			
+			</iframe>
+		</div>
+		<!--End of Our Products-->
+
+
+		<!--Start of Resellers-->
+		<div id="resellersWriting">
+			<h1 class="title">Resellers</h1>
+			<p>We work closely together with several companies to distribute our socks to as many people as possible.</p>
+		
+			<div id="resellersLogo">
+				<img class="logo" src="img/resellersLogo's/AmazonNL.png" alt="AmazonNL">
+				<img class="logo" src="img/resellersLogo's/AmazonDE.png" alt="AmazonDE">
+				<img class="logo" src="img/resellersLogo's/Bol.png" alt="Bol.com">
+				<img class="logo" src="img/resellersLogo's/Hema.png" alt="Hema">
+			</div>
+		</div>
+		<!--End of Resellers-->
+
+
+		<!--Start of Contact Us--> 
+		<div id="contactUs">
+			<h1 class="title">Contact Us</h1>
+			<form action="php/display.php" method="post">
+				<div id="personInfo">
+					<input type="text" id="fullname" name="fullname" placeholder="Your name">
+					<input type="text" id="email" name="email" placeholder="Email adress">
+				</div>
+				<textarea id="message" name="message" placeholder="Message"></textarea>
+				<input type="submit" id="submitButton" name="submit" value="Submit">
+			</form>
+		</div>
+		<!--End of Contact Us-->
+
+
+		<footer>
+			<img src="img/Logo's/png/sunny_logos-01.png" alt="footer_logo">
+		</footer>
     </div>
 </body>
 </html>

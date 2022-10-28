@@ -34,6 +34,12 @@ html{
 	width: 100%;
 }
 
+a.anchor {
+	display: block;
+	position: relative;
+	top: -35px;
+	visibility: hidden;
+}
 
 /* Start of Header */
 header{
@@ -42,6 +48,10 @@ header{
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 5;
 }
 
 header > img{
@@ -72,6 +82,11 @@ header > ul{
   	-o-transition: all 0.2s ease-in;
   	-webkit-transition: all 0.2s ease-in;
   	transition: all 0.2s ease-in;
+}
+
+#headerGap{
+	grid-column: 1/7;
+	height: 83px;
 }
 /* End of Header */
 
@@ -220,7 +235,7 @@ header > ul{
  	padding-top: 0.625rem;
  	padding-bottom: 0.625rem;
  	background-color: white;
- 	margin-top: 30px;
+ 	margin-top: 0;
 }
 
 #ourProducts > iframe{
@@ -247,6 +262,7 @@ header > ul{
 #resellersWriting > p{
 	grid-column: 1/7;
 	font-size: 2rem;
+	margin-top: 0;
 }
 
 #resellersLogo{
@@ -255,14 +271,18 @@ header > ul{
 	grid-column: 1/7;
 }
 
-.logo{
-	width: 15%;
+#resellersLogo > a{
+	width: 18%;
+}
+
+#resellersLogo > a > img{
+	width: 100%;
 	height: auto;
 	border: 2px solid;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
-.logo:hover{
+#resellersLogo > a > img:hover{
 	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
 	-moz-transition: all 0.2s ease-in;
   	-o-transition: all 0.2s ease-in;
@@ -391,9 +411,14 @@ footer > img{
 	}
 
 
-/* Start of Header */	
+/* Start of Header */
 	header > img{
 		height: 40px;
+	}
+
+	#headerGap{
+		grid-column: 1/7;
+		height: 58px;
 	}
 /* End of Header */
 

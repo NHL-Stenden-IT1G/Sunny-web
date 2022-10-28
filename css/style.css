@@ -246,7 +246,15 @@ input[type="text"],textarea
 	}
 
 }
+@media screen and (max-width:900px)
+{
+	#submit_button
+	{
+		width:20%;
+		left:39%;
+	}
 
+}
 
 footer
 {

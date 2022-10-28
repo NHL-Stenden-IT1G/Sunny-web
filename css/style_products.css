@@ -32,7 +32,7 @@ html
 
 .sock_item > img
 {
-    width: 95%;
+    max-width: 95%;
     height: auto;    
 }
 .sock_item > p
@@ -57,21 +57,5 @@ html
     #socks
     {
         width: 150%;
-    }
-}
-@media screen and (max-width:900px)
-{
-    .sock_item>img
-    {
-        width: 120px;
-        height: auto;
-    }
-    #socks
-    {
-        width: 140%;
-    }
-    .sock_item > p
-    {
-        font-size: 2.0rem;
     }
 }

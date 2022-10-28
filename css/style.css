@@ -147,15 +147,6 @@ h2
 		
 	}
 }
-@media screen and (max-width:900px)
-{
-	#our_products >iframe
-	{
-		height: 23rem;
-		
-	}
-}
-
 #contact_us
 {
 	text-align: center;
@@ -282,7 +273,7 @@ footer > img
 	flex: 2 2 20em;
 }
 #resellersWriting>p{
-	grid-column: 1/6;
+	grid column: 1/6;
 	font-family:Nexa Light ;
 	font-size: 2em;
 	

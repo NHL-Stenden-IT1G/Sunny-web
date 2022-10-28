@@ -58,6 +58,7 @@ header > img{
 	height: 65px;
 	margin: 9px;
 	margin-left: 16px;
+	grid-column: 1/3;
 }
 
 header > ul{
@@ -94,7 +95,7 @@ header > ul{
 /* Start of Main Page */
 #banner{
 	grid-column: 3/7;
-	background-image: url(../img/sunny_socks_photos/catalogus/Sunny_socks_green_cut.jpg);
+	background-image: url(../img/photos/Sunny_socks_green_cut.jpg);
 	background-size: cover;
 	background-position: bottom;
 	height: 600px;
@@ -420,6 +421,10 @@ footer > img{
 		grid-column: 1/7;
 		height: 58px;
 	}
+
+	#menuList{
+		display: none;
+	}
 /* End of Header */
 
 
@@ -430,7 +435,7 @@ footer > img{
 	
 	#banner{
 		grid-column: 1/7;
-		background-image: url(../img/sunny_socks_photos/catalogus/mobile_sunny_socks_green_cropped.jpg);
+		background-image: url(../img/photos/mobile_sunny_socks_green_cropped.jpg);
 		background-size: cover;
 		width: 100%;
 		height: 600px;

@@ -279,7 +279,7 @@ header > ul{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 20%;
+	padding-bottom: 12%;
 }
 
 form{
@@ -300,13 +300,13 @@ form{
 #personInfo input{
 	height: 10%; 
 	width: 45%;
-	font-size: 1.625rem;
+	font-size: 1.4rem;
 }
 
 #message{
 	width: 100%;
 	height: 100%;
-	font-size: 1.625rem;
+	font-size: 1.4rem;
 }
 
 input[type="text"], textarea{
@@ -325,9 +325,10 @@ input[type="text"], textarea{
 	font-weight: 900;
 	font-size: 1.5rem;
 	position: relative;
-	top:-25%;
-	left: 44.6%;
+	top: -26%;
+	left: 44%;
 	box-shadow: 0.1rem 0.1rem 0.5rem black;
+	margin: 5px;
 }
 
 textarea{
@@ -508,4 +509,3 @@ footer > img{
 	}
 /* End of Footer */
 }
-	
